@@ -292,7 +292,15 @@ const items = [
     title: "Entrecote",
     description:
       "Race francaise, sauce au choix poivre, gorgonzola, echalote. Servi avec frites et salade",
-    header: <Skeleton />,
+    header: (
+      <img
+        src="https://images.radio-canada.ca/q_auto,w_991/v1/alimentation/recette/16x9/steak-entrecote-poivre-frites.jpg"
+        alt="Steak"
+        width={200}
+        height={50}
+        className="rounded-sm"
+      />
+    ),
     className: "md:col-span-2",
     // icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
